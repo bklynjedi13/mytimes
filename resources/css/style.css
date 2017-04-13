@@ -1,0 +1,12 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+}
+.title {
+  color: MediumAquamarine;
+}
+.topics {
+  position: inline-block;
+}
