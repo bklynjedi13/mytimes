@@ -2,11 +2,17 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-flex;
+  display: flex;
+  border: 10px solid red;
 }
-.title {
+p {
   color: MediumAquamarine;
+  display: flex;
+  border: 5px dotted blue;
 }
 .topics {
-  position: inline-block;
+  display: flex;
+  align-items: center;
+  border: 5px dotted green;
+
 }
