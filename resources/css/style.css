@@ -1,18 +1,18 @@
-header {
+.container {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  border: 10px solid red;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid red;
 }
 p {
   color: MediumAquamarine;
-  display: flex;
   border: 5px dotted blue;
 }
-.topics {
-  display: flex;
-  align-items: center;
-  border: 5px dotted green;
+nav {
 
+  border: 5px dotted green;
 }
